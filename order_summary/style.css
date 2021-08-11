@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+html, body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-color: rgb(228, 237, 255);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 400px auto;
+    grid-template-rows: 83px 600px 83px;
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font: 1em;
+    font-size: 20px;
+    color: black;  
+    border-radius: 1em;
+}
+
+/* .container > div:nth-child(1n) {
+    background-color: #96ceb4;
+} */
+
+.container > div:nth-child(2n) {
+    background-color: white;
+    align-items:baseline;
+}
+
+/* .container > div:nth-child(3n) {
+    background-color: #096e3b;
+} */
+
+.header{
+    grid-column: 1/-1;
+}
+
+.content{
+    grid-column: 2/3;
+}
+
+.img-hero {
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.footer{
+    grid-column: 1/-1;
+}
+
+.inside > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.annual-plan {
+    display: flex;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: teal;
+    border-radius: 0.5em;
+}
+
