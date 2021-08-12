@@ -15,5 +15,7 @@
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgments](#acknowledgments
 
+
+[Click Here For Preview](https://brave-swartz-b36011.netlify.app/)
