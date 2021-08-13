@@ -15,7 +15,18 @@
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover states for interactive elements
+
+### Screenshot
+![](.images/screenshot.png)
 
 
 [Click Here For Preview](https://brave-swartz-b36011.netlify.app/)
